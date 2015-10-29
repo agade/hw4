@@ -97,8 +97,12 @@ public class ReadQuery {
                 table += album.getReleaseDate();
                 table += "</td>";
                 
-                table += "</tr>";
+                table += "<td>";
+                table += "<a href=delete?albumID=" + album.getAlbumID() + "> Delete </a>";
+                table += "</td>";
                 
+                table += "</tr>";
+              
             }
         } catch (SQLException ex) {
             Logger.getLogger(ReadQuery.class.getName()).log(Level.SEVERE, null, ex);

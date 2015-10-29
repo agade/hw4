@@ -11,6 +11,12 @@
     
     <body>
         <h1>Alex's Albums</h1>
+        
         <%= table %>
+        
+        <br><br>
+        
+        <a href ="add">Add A New Album</a>
+        
     </body>
 </html>
