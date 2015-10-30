@@ -62,9 +62,17 @@ public class ReadQuery {
     }
     
     public String getHTMLtable(){
-        String table = "";
+        
+          String table = "";
+                            
         
         table += "<table border=1>";
+        
+            table += "<tr><th>AlbumID</th>";
+            table += "<th>Album Name</th>";
+            table += "<th>Number Of Songs</th>";
+            table += "<th>Artist</th>";
+            table += "<th>Release Date</th></tr>"; 
         
         try {
             while(this.results.next()){
@@ -76,6 +84,8 @@ public class ReadQuery {
                 album.setArtist(this.results.getString("artist"));
                 album.setReleaseDate(this.results.getInt("releaseDate"));
                 
+                
+              
                 table += "<tr>";
                 table += "<td>";
                 table += album.getAlbumID();
