@@ -13,6 +13,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import model.Albums;
 
+//table += "<table border=1>";
 
 public class ReadQuery {
   
@@ -66,7 +67,8 @@ public class ReadQuery {
           String table = "";
                             
         
-        table += "<table border=1>";
+        //table += "<table border=1>";
+          table += "<table border=1>";
         
             table += "<tr><th>AlbumID</th>";
             table += "<th>Album Name</th>";
