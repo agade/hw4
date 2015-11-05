@@ -15,10 +15,12 @@ h1{
     margin: auto;
    padding-bottom: 10px;
 }
+
 form{
-    width: 500px;
+    width: 525px;
     margin: auto;
 }
+
 input{
     display: block;
     border: 1px solid black;
@@ -37,4 +39,11 @@ th{
     background-color:#FFFF99 ;
     color: #696969;
     border : 1px solid black;
+}
+
+update{
+     border: none;
+     height:25px;
+     padding:10px;
+     font-weight: bold;
 }

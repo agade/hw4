@@ -18,6 +18,7 @@
         <br><br>
         
         <a href ="add">Add A New Album</a>
-        
+        <br><br>
+        <a href="search.jsp">Search Albums</a>
     </body>
 </html>

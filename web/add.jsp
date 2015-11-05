@@ -23,6 +23,7 @@
             <label>Release Date:</label>
             <input type="text" name="date" value="" />
             <br>
+            <input type="reset" name="reset" value="Clear" />
             <input type="submit" name="submit" value="Submit" />
         </form>
         

@@ -10,5 +10,7 @@
         <h1>My Albums Database</h1>
         
         <a href="read">View All Albums</a>
+        <br><br>
+        <a href="search.jsp">Search Albums</a>
     </body>
 </html>
